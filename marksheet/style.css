@@ -1,0 +1,26 @@
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.result-table th, .result-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+.low-marks {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: red;
+    color: white;
+}
+/* @media(min-width:320px)and(max-width:450px){
+    .result-table{width:50%;
+        border-collapse: collapse;
+}
+    
+    }
+    
+ */

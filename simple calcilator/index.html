@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-calculator</title>
+</head>
+<body>
+   <script src="main.js"></script> 
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .calculator {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .calculator input, .calculator button {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .calculator button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .calculator button:hover {
+            background-color: #218838;
+        }
+        .result {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Simple Calculator</h1>
+        <input type="number" id="num1" placeholder="Enter 1st number">
+        <input type="number" id="num2" placeholder="Enter 2nd number">
+        <input type="text" id="sign" placeholder="Enter operator (+, -, *, /)">
+        <button onclick="calculate()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculate() {
+            var num1 = Number(document.getElementById("num1").value);
+            var num2 = Number(document.getElementById("num2").value);
+            var sign = document.getElementById("sign").value.trim();
+            var result;
+
+            if (sign === "+") {
+                result = num1 + num2;
+            } else if (sign === "-") {
+                result = num1 - num2;
+            } else if (sign === "*") {
+                result = num1 * num2;
+            } else if (sign === "/") {
+                if (num2 !== 0) {
+                    result = num1 / num2;
+                } else {
+                    result = "Error: Division by zero";
+                }
+            } else {
+                result = "Error: Invalid operator";
+            }
+
+            document.getElementById("result").textContent = "Result: " + result;
+        }
+    </script>
+</body>
+</html> -->
